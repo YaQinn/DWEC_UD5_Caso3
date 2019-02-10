@@ -1,0 +1,43 @@
+div
+{
+  font-weight: bolder;
+  border: 2px solid black;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.caja
+{
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.uno
+{
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.dos
+{
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.tres
+{
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.cuatro
+{
+  grid-column: 2;
+  grid-row: 2;
+}
